@@ -1,0 +1,241 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*------header starts------*/
+.header {
+    width: 100%;
+    height: 605px;
+    background-image: url(Images/Mask\ Group.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav-link {
+    position: relative;
+    display: flex;
+    flex: 1;
+    color: white;
+    left: 5%;
+    top: 8px;
+    padding: 0 0 0 185px;
+    z-index: 1;
+}
+.nav-link li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+}
+
+.nav-link li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.nav-link li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+}
+
+.nav-link li:hover::after {
+    width: 100%;
+    transition: 1s;
+}
+
+.gradient {
+    position: relative;
+    left: 0;
+    height: 133px;
+    width: 100%;
+    top: -605px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.65) 0%,
+        rgba(0, 0, 0, 0.65) 47%,
+        rgba(0, 0, 0, 0) 99%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+/*------header ends------*/
+.brown {
+    position: relative;
+    left: 0;
+    height: 340px;
+    width: 1000px;
+    top: -385px;
+    background-color: #231e28;
+}
+.inner 
+{
+    padding: 0 0 0 105px;
+}
+.brown h1 {
+    text-align: justify;
+    padding: 70px 0px 0px 78px;
+    color: white;
+    font-size: 65px;
+}
+.brown p {
+    text-align: justify;
+    left: 10px;
+    color: gray;
+    font-size: 20px;
+    padding: 20px 0 0 80px;
+}
+.pale {
+    position: relative;
+    left: 1000px;
+    height: 340px;
+    width: 368px;
+    top: -725px;
+    background-color: #342e39;
+}
+.pale h2 {
+    color: white;
+    padding: 9px 0px 0 46px;
+    font-size: 25px;
+}
+.pale p {
+    color: #fd5f07;
+    padding: 180px 0px 0 46px;
+    font-size: 20px;
+}
+.info {
+    position: absolute;
+    bottom: -160px;
+    font-size: 22px;
+    padding: 0px 8px 0px 185px;
+    color: #78767a;
+}
+/*-----hero-----*/
+.hero {
+    width: 100%;
+    position: relative;
+    background-color: #eeeeee;
+    margin-top: -450px;
+}
+
+.box {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.box h1 {
+    font-size: 30px;
+    color: #868c92;
+    margin-bottom: 50px;
+}
+.row {
+    width: 100%;
+    margin: 0 -16px;
+}
+
+@media(min-width: 767px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.col-4 {
+    padding: 0 16px;
+    margin-bottom: 32px;
+}
+
+@media (min-width: 767px) {
+    .col-4 {
+        flex-basis: 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+.pamp {
+    background-color: #fff;
+    padding: 30px;
+    transition: all 0.7s ease-in-out;
+    height: 275px;
+}
+
+.pamp h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.pamp p 
+{
+    padding: 0 0 4px 0;
+    line-height: 25px;
+    
+}
+.pamp:hover {
+    background-color: orangered;
+    color: white;
+}
+/*-------slider---------*/
+.slider-wrap {
+    background-color: #231E28;
+    width: 100%;
+    height: 500px;
+    padding: 100px 0;
+}
+
+.card-slider {
+    height: 500px;
+    margin: 0 0 0 185px;
+}
+.card-slider h1
+{
+    font-size: 45px;
+    color: #fff;
+}
+.card-slider p
+{
+    font-size: 18px;
+    margin-top: 19px;
+    color: #868C92;
+    line-height: 25px;
+}
+.hero-btn{
+    
+    display: inline-block;
+    margin-top: 11px;
+    text-decoration: none;
+    color: white;
+    background-color: #fd5f07;
+    border: 1px  solid #fd5f07;
+    border-radius: 25px;
+    padding: 12px 34px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+
+}
+.hero-btn:hover{
+    background-color: #fd5f07;
+    color: black;
+    
+}
+.pic img
+{
+    width: 520px;
+    height: 337px;
+    margin: -500px 0 0 1000px;
+}
