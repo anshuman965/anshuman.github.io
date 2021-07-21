@@ -239,3 +239,37 @@
     height: 337px;
     margin: -500px 0 0 1000px;
 }
+/*----------hero2---------*/
+.hero-2
+{
+    max-height  : 379px;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    margin: 80px 0 0 180px;
+}
+.hero-2 h1
+{
+    color: black;
+    font-size: 30px;
+}
+.flex-box
+{
+    display: flex;
+}
+.text-box
+{
+    color: black;
+    margin-top: 40px;
+    margin: 40px 70px 0px 0px;
+}
+.text-box h2
+{
+    font-size: 20px;
+}
+.text-box p
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #19151C;
+}
